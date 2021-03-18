@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asoka World School</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/icofont.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    <!-- Loader area -->
+    <div id="loader"></div>
+
+    <!-- Scroll To Top -->
+    <div id="scrollUp"></div>
+
+    <!-- Popup -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><i class="icofont-ui-close"></i></button>
+                    <div class="modal-header-767 d-none">
+                        <h3>Admission <span>2020-21</span></h3>
+                    </div>
+                    <div class="modal-left">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="modal-right">
+                        <div class="modal-heading">
+                            <h3>Admission <span>2020-21</span></h3>
+                            <!-- <button type="button" class="close" data-dismiss="modal"><i class="icofont-ui-close"></i></button> -->
+                        </div>
+                        <form>
+                            <div class="form-group">
+                                <!-- <label for="name">Name</label> -->
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+                            </div>
+                            <div class="form-group">
+                                <!-- <label for="phone">Phone</label> -->
+                                <input type="text" class="form-control" id="name" name="phone" placeholder="Enter your Phone No.">
+                            </div>
+                            <div class="form-group">
+                              <!-- <label for="email">Email address</label> -->
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Enter email">
+                            </div>
+                            <button type="submit" class="btn btn-bordered default-btn">Submit</button>
+                        </form>
+                    </div>
+                    <!-- <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" class="form-control" id="name" name="phone" placeholder="Enter your Phone No.">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Enter email">
+                        </div>
+                        <button type="submit" class="btn btn-bordered default-btn">Submit</button>
+                    </form> -->
+                </div>
+            </div>
+            </div>
+        </div>
+
+    <!-- Video -->
+    <div class="trailer">
+        <video src="assets/video/Covid Protocol video.mp4" controls="true"></video>
+        <img src="assets/img/close.png" class="close" alt="" onclick="videoToggle()">
+    </div>    
+
+    <div class="all-area">
+        <!-- Header Area -->
+        <header  class="header-area">
+            <div id="top-header" class="main-header-area">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <!-- Logo -->
+                        <a href="index.html" class="navbar-brand">
+                            <img src="assets/img/logo/logo2.png" alt="" class="logo">
+                        </a>
+                        <!-- Call Button -->
+                        <div class="call-btn">
+                            <a href="tel:+91 9633756333"><i class="icofont-headphone-alt"></i> +91 9633756333</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Banner Area -->
+        <section class="banner-area d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-12">
+                        <div class="banner-content">
+                            <h1><span>Modern Education</span> <br>For Everyone</h1>
+                            <div class="button-group">
+                                <a href="#" class="btn btn-bordered default-btn" data-toggle="modal" data-target="#exampleModalCenter">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Categories  -->
+        <div class="course-categories">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="course-categories-wrap">
+                            <div class="custom-col">
+                                <div class="single-course kindergarten">
+                                    <div class="item-inner">
+                                        <div class="course-title">
+                                            <h4>Kindergarten</h4>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate adipisci dolorem voluptatibus labore possimus illum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="custom-col">
+                                <div class="single-course primary-school">
+                                    <div class="item-inner">
+                                        <div class="course-title">
+                                            <h4>Primary School</h4>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate adipisci dolorem voluptatibus labore possimus illum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="custom-col">
+                                <div class="single-course middle-school">
+                                    <div class="item-inner">
+                                        <div class="course-title">
+                                            <h4>Middle School</h4>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate adipisci dolorem voluptatibus labore possimus illum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="custom-col">
+                                <div class="single-course senior-school">
+                                    <div class="item-inner">
+                                        <div class="course-title">
+                                            <h4>Senior School</h4>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate adipisci dolorem voluptatibus labore possimus illum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- What WE Provide Area -->
+        <section class="ptb_100 what-we-provide">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-6">
+                        <div class="section-heading text-center">
+                            <h3 class="text-capitalize">Why Choose Us</h3>
+                            <h2>What We Provide</h2>
+                            <p class="d-block d-sm-block mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati.</p>
+                        </div>
+                    </div>
+                </div><!-- /row -->
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="provider-wrap">
+                            <div class="row">
+    
+                                <div class="col-lg-6 col-md-6">
+                                   <!-- single-provide -->
+                                   <div class="single-provide">
+                                        <div class="single-provide-icons">
+                                            <img src="assets/img/icons/provide-01.png" alt="">
+                                        </div>
+                                        <div class="single-provide-contented">
+                                           <h4>Best Teacher</h4>
+                                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptas. </p>
+                                        </div>
+                                   </div><!--// single-provide -->
+                                </div>
+    
+                                <div class="col-lg-6 col-md-6">
+                                   <!-- single-provide -->
+                                   <div class="single-provide">
+                                        <div class="single-provide-icons">
+                                            <img src="assets/img/icons/provide-02.png" alt="">
+                                        </div>
+                                        <div class="single-provide-contented">
+                                           <h4>Best Lab</h4>
+                                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptas. </p>
+                                        </div>
+                                   </div><!--// single-provide -->
+                                </div>
+    
+                                <div class="col-lg-6 col-md-6">
+                                   <!-- single-provide -->
+                                   <div class="single-provide">
+                                        <div class="single-provide-icons">
+                                            <img src="assets/img/icons/provide-03.png" alt="">
+                                        </div>
+                                        <div class="single-provide-contented">
+                                           <h4>Low Cost Service</h4>
+                                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptas. </p>
+                                        </div>
+                                   </div><!--// single-provide -->
+                                </div>
+    
+                                <div class="col-lg-6 col-md-6">
+                                   <!-- single-provide -->
+                                   <div class="single-provide">
+                                        <div class="single-provide-icons">
+                                            <img src="assets/img/icons/provide-04.png" alt="">
+                                        </div>
+                                        <div class="single-provide-contented">
+                                           <h4>Online Learning</h4>
+                                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptas. </p>
+                                        </div>
+                                   </div><!--// single-provide -->
+                                </div>
+    
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="provide-image text-right">
+                            <img src="assets/img/about/lkg3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div><!-- conatiner -->
+        </section>
+
+        <!-- About US area-->
+        <div class="welcome-about-us">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-title">
+                            <h3>Approved By <span style="color: #4285F4;">G</span><span style="color: #DB4437;">o</span><span style="color: #F4B400;">o</span><span style="color: #4285F4;">g</span><span style="color: #0F9D58;">l</span><span style="color: #DB4437;">e</span> For Education </h3>
+                            <!-- <img src="assets/img/gedu.png" alt=""> -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reiciendis maxime hic molestias mollitia nulla labore tempore aperiam laudantium harum.</p>
+                            <div class="google-btn">
+                                <img src="assets/img/google.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-video">
+                    <div class="video-inner">
+                        <div class="play" onclick="videoToggle()">
+                            <img src="assets/img/video-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About school -->
+        <div class="about-school ptb_100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5 col-lg-6 text-left mb-2">
+                        <img src="assets/img/asoka-school.jpg" alt="" class="school-img img-jump">
+                    </div>
+                    <div class="col-md-7 col-lg-6 ">
+                        <div class="school-about">
+                            <div class="section-badge">About US</div>
+                            <h3>Asoka World School</h3>
+                            <p>Asoka World School is one of the pioneers in Kerala to integrate Google for Education in classrooms. The global platform creates a collaborative environment for teachers and students to leverage technology intelligently. Video conferences enable classes while customized web applications are used to grade the performance of students and keep parents in the loop. At AWS, all students are provided with their school email accounts with full access to Google Apps for Education. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- testimonial area -->
+        <div class="testi-area ptb_100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-6">
+                        <div class="section-heading text-center">
+                            <h2>Our clients</h2>
+                            <p class="d-block d-sm-block mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="testi-slider owl-carousel">
+                        <div class="single-testi text-center">
+                            <div class="testi-content">
+                                <p class="testi-description"><i class="icofont-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eos cumque velit incidunt maxime atque sequi eaque aut enim, laboriosam quos fugit quod, veniam qui.</p>
+                                <h3 class="testi-name">Edward Addison</h3>
+                            </div>
+                        </div>
+                        <div class="single-testi text-center">
+                            <div class="testi-content">
+                                <p class="testi-description"><i class="icofont-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eos cumque velit incidunt maxime atque sequi eaque aut enim, laboriosam quos fugit quod, veniam qui.</p>
+                                <h3 class="testi-name">Eduordo Duota</h3>
+                            </div>
+                        </div>
+                        <div class="single-testi text-center">
+                            <div class="testi-content">
+                                <p class="testi-description"><i class="icofont-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eos cumque velit incidunt maxime atque sequi eaque aut enim, laboriosam quos fugit quod, veniam qui.</p>
+                                <h3 class="testi-name">Abraham Jhon</h3>
+                            </div>
+                        </div>
+                        <div class="single-testi text-center">
+                            <div class="testi-content">
+                                <p class="testi-description"><i class="icofont-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eos cumque velit incidunt maxime atque sequi eaque aut enim, laboriosam quos fugit quod, veniam qui.</p>
+                                <h3 class="testi-name">Jancy Rani</h3>
+                            </div>
+                        </div>
+                        <div class="single-testi text-center">
+                            <div class="testi-content">
+                                <p class="testi-description"><i class="icofont-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eos cumque velit incidunt maxime atque sequi eaque aut enim, laboriosam quos fugit quod, veniam qui.</p>
+                                <h3 class="testi-name">Joyel Mathew</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- divider -->
+        <div class="divider">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-12 col-lg-12">
+                        <div class="divider-content">
+                            <h2>BEACON AWARDS 2020-21</h2>
+                            <h5><em>An initiative by Indira Gandhi Educational Trust and Asoka World School to recognize educators who achieved remarkable feats in the field of education</em></h5>
+                            <p>BEACON Education Award recognizes outstanding School Leaders who have succeeded in providing high-quality learning opportunities for students as well as demonstrating exemplary contributions to the profession. Our attempt is not only to salute the academic leadership but also provides a forum for honorees to advocate for education and share best practices and expertise.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact area -->
+        <div class="contact-scetion ptb_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-sm-12">
+                        <div class="contact-form">
+                            <div class="contact-form-info">
+                                <div class="contact-title">
+                                    <h3>Quick Enquiry</h3>
+                                </div>
+                                <form id="contact-form" action="" method="POST">
+                                    <div class="contact-page-form">
+                                        <div class="contact-input">
+                                             <div class="contact-inner">
+                                                 <input name="name" type="text" placeholder="First Name *" id="first-name">
+                                             </div>
+                                             <div class="contact-inner">
+                                                 <input name="lastname" type="text" placeholder="Last Name *" id="last-name">
+                                             </div>
+                                             <div class="contact-inner">
+                                                 <input type="text" placeholder="Email *" id="email" name="email">
+                                             </div>
+                                             <div class="contact-inner">
+                                                 <input name="subject" type="text" placeholder="Subject *" id="subject">
+                                             </div>
+                                             <div class="contact-inner contact-message">
+                                                 <textarea name="message" placeholder="Message *"></textarea>
+                                             </div>
+                                         </div>
+                                         <div class="contact-submit-btn">
+                                             <button class="submit-btn" type="submit">Send Email</button>
+                                             <p class="form-messege"></p>
+                                         </div>
+                                    </div>
+                                 </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-12">
+                        <div class="contact-infor">
+                            <div class="contact-title">
+                                <h3>Contact Us</h3>
+                            </div>
+                            <div class="contact-dec">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores quisquam aut beatae commodi fuga omnis delectus repellendus cupiditate iste.</p>
+                            </div>
+                            <div class="contact-address">
+                                <ul>
+                                    <li><i class="icofont-ui-home"></i> Address: Asoka world school, Parayil Road, Elamakara, Kochi-682026</li>
+                                    <li><i class="icofont-envelope"></i> asokaworldschool.com</li>
+                                    <li><i class="icofont-ui-cell-phone"></i> 0484 2409272, 9633756333</li>
+                                </ul>
+                            </div>
+                            <div class="working-hours">
+                                <h5>Working Hours</h5>
+                                <p><strong>Monday-Saturday :</strong>&nbsp;09 AM - 05 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer area -->
+        <footer class="footer-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="copyright-area">
+                            <p>Copyright © 2021 Asoka World School., All rights reserved. Designed by <a href="http://www.theviralmafia.com/?utm_source=time4education" target="_blank"> <img src="assets/img/viralmafia.svg"></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div><!-- End All Area -->
+    
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap/popper.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            function showWindow() {
+                $('#exampleModalCenter').show();
+                // stop scroll
+                $('html body').css('overflow', 'hidden')
+            }
+            // showWindow()
+
+            function hideWindow() {
+                $('#exampleModalCenter').hide();
+                // on scroll
+                $('html body').css('overflow', 'scroll')
+            }
+            // hideWindow()
+
+            // now call function automatically after some time 
+
+            setTimeout(showWindow, 2000)
+
+
+            // close after click
+            $('.close').click(function() {
+                hideWindow()
+            })
+
+            //Testimonials SLIDER ACTIVE CODE
+            $('.testi-slider.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 20,
+                    nav: false,
+                    dots: false,
+                    smartSpeed: 2000,
+                    autoplay: true,
+                    autoplayTimeout: 4000,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: false
+                        },
+                        576: {
+                            items: 2
+                        },
+                        768: {
+                            items: 2
+                        },
+                        992: {
+                            items: 3
+                        }
+                    }
+                });
+
+
+        })
+    </script>
+    <script>
+        function videoToggle(){
+            const trailer = document.querySelector('.trailer');
+            const video = document.querySelector('video');  
+            trailer.classList.toggle('active')
+            video.currentTime = 0;
+            video.pause();
+        }
+    </script>
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+91 9633756333", // WhatsApp number
+                call: "+91 9633756333", // Call phone number
+
+                greeting_message: "Hello, how may we help you? Just send us a message now to get assistance.", // Text of greeting message
+                call_to_action: "Message us", // Call to action
+                button_color: "#3dc342", // Color of button
+                position: "right", // Position may be 'right' or 'left'
+                order: "whatsapp,sms,email", // Order of buttons
+            };
+            var proto = document.location.protocol,
+                host = "whatshelp.io",
+                url = proto + "//static." + host;
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () {
+                WhWidgetSendButton.init(host, proto, options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+        
+    </script>
+</body>
+</html>
