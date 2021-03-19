@@ -158,8 +158,8 @@ img {
 }
 
 .navbar-brand .logo {
-    max-height: 150px;
-    height: 150px;
+    max-height: 120px;
+    height: 120px;
 }
 
 .call-btn{
@@ -175,6 +175,27 @@ img {
     padding: 10px;
     color: #000;
     border-radius: 10px;
+}
+
+.nav-item a{
+    margin-top: 0;
+    color: #000 !important;
+    margin-right: 10px;
+}
+
+.navbar-sticky {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.15);
+    border-bottom: none;
+    z-index: 1000 !important;
+}
+
+.navbar-sticky .navbar-brand img{
+    max-height: 100px;
 }
 
 /* Banner Area */
@@ -193,7 +214,7 @@ img {
 
 .banner-content h1{
     color: #fff;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 800;
     font-family: "Montserrat", sans-serif;
 }
@@ -201,6 +222,44 @@ img {
 .banner-content h1 span{
     font-size: 50px;
     font-family: "Montserrat", sans-serif;
+}
+
+.form-banner{
+    width: 32%;
+    position: absolute;
+    right: 5%;
+    top: 0;
+}
+
+.form-banner form{
+    background: #fff;
+    width: 100%;
+    padding: 25px 30px;
+    clear: both;
+    box-shadow: 0 10px 50px 0 rgb(84 110 122 / 35%);
+    position: relative;
+    top: 240px;
+}
+
+.form-banner form h1{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.form-banner form input{
+    float: left;
+    height: 45px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    color: #333;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    border-radius: 0;
+    padding: .375rem 0;
+    margin-bottom: 20px;
 }
 
 /* What WE Provide Area */
@@ -443,7 +502,7 @@ img {
     border-radius: 25px 25px 0 0;
     text-align: center;
     position: relative;
-    margin-top: -100px;
+    margin-top: 100px;
     z-index: 1;
 }
 
@@ -547,6 +606,10 @@ img {
 }
 
 /* Contact area */
+.contact-scetion{
+    background: #f0f3fc;
+}
+
 .contact-form-info {
     padding: 20px 50px 20px 0;
 }

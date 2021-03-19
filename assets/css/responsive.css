@@ -63,7 +63,7 @@
         min-width: 50%;
     }
     .single-course{
-        margin-top: 50px;
+        margin-top: 90px;
     }
 }
 
@@ -114,6 +114,17 @@
         color: #fff;
         font-size: 30px;
         font-weight: 700;
+    }
+    .form-banner{
+        width: 100%;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 45%;
+        padding: 0 10px;
+    }
+    .course-categories{
+        padding-top: 240px;
     }
 }
 
@@ -170,5 +181,38 @@
     }
     .modal-body button.close i{
         font-size: 10px;
+    }
+    .banner-area .container{
+        max-width: 95%;
+    }
+}
+
+@media(max-width:767px){
+    .navbar-expand-md .navbar-collapse{
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+    .navbar-nav{
+        flex-direction: inherit;
+    }
+    .nav-item-sm{
+        display: none;
+    }
+    .navbar-nav .nav-link{
+        padding: 10px 35px;
+    }
+}
+
+@media(max-width:400px){
+    .navbar-nav .nav-link{
+        padding: 10px 10px;
+    }
+    .contact-form-info{
+        padding: 0;
+    }
+    .contact-form{
+        margin-bottom:20px
     }
 }
