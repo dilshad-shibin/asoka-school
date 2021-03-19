@@ -10,12 +10,7 @@
     }
 }
 
-@media(max-width: 575px){
-    .navbar-brand .logo{
-        max-height: 110px;
-        height: 110px;
-    }
-}
+
 
 @media(max-width:451px){
     .banner-content h1{
@@ -214,5 +209,28 @@
     }
     .contact-form{
         margin-bottom:20px
+    }
+}
+
+@media(max-width: 575px){
+    .navbar-brand .logo{
+        max-height: 110px;
+        height: 110px;
+    }
+    .navbar-nav .nav-link{
+        padding: 10px 20px;
+    }
+    .enq-btn{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:400px){
+    .navbar-nav .nav-link{
+        padding: 10px 15px;
+        margin-right: 0;
+    }
+    .navbar-brand .logo{
+        max-height: 100px;
     }
 }

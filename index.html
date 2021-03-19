@@ -13,12 +13,6 @@
 </head>
 <body>
 
-    <!-- Loader area -->
-    <div id="loader"></div>
-
-    <!-- Scroll To Top -->
-    <div id="scrollUp"></div>
-
     <!-- Popup -->
         <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -34,39 +28,20 @@
                     <div class="modal-right">
                         <div class="modal-heading">
                             <h3>Admission <span>2020-21</span></h3>
-                            <!-- <button type="button" class="close" data-dismiss="modal"><i class="icofont-ui-close"></i></button> -->
                         </div>
                         <form>
                             <div class="form-group">
-                                <!-- <label for="name">Name</label> -->
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
                             </div>
                             <div class="form-group">
-                                <!-- <label for="phone">Phone</label> -->
                                 <input type="text" class="form-control" id="name" name="phone" placeholder="Enter your Phone No.">
                             </div>
                             <div class="form-group">
-                              <!-- <label for="email">Email address</label> -->
                               <input type="email" class="form-control" name="email" id="email" placeholder="Enter email">
                             </div>
                             <button type="submit" class="btn btn-bordered default-btn">Submit</button>
                         </form>
                     </div>
-                    <!-- <form>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone</label>
-                            <input type="text" class="form-control" id="name" name="phone" placeholder="Enter your Phone No.">
-                        </div>
-                        <div class="form-group">
-                          <label for="email">Email address</label>
-                          <input type="email" class="form-control" name="email" id="email" placeholder="Enter email">
-                        </div>
-                        <button type="submit" class="btn btn-bordered default-btn">Submit</button>
-                    </form> -->
                 </div>
             </div>
             </div>
@@ -88,13 +63,14 @@
                         <a href="index.html" class="navbar-brand">
                             <img src="assets/img/logo/logo2.png" alt="" class="logo">
                         </a>
+                        <!-- top Enquire & phone button -->
                         <div class="collapse navbar-collapse" id="main-menu">
                             <ul class="navbar-nav header-items ml-auto">
                                 <li class="nav-item">
-                                    <a href="tel:" class="nav-link btn btn-bordered default-btn" data-toggle="modal" data-target="#exampleModalCenter">Enquiry Now</a>
+                                    <a href="tel:" class="nav-link btn btn-bordered default-btn enq-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="icofont-telegram"></i> Enquire Now</a>
                                 </li>
                                 <li class="nav-item nav-item-sm">
-                                    <a href="tel:+91 9633756333" class="nav-link btn btn-bordered default-btn"><i class="icofont-headphone-alt"></i> +91 9633756333</a>
+                                    <a href="tel:+91 9633756333" class="nav-link btn btn-bordered default-btn enq-btn"><i class="icofont-headphone-alt"></i> +91 9633756333</a>
                                 </li>
                             </ul>
                         </div>
@@ -260,20 +236,20 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="provide-image text-right">
-                            <img src="assets/img/about/lkg3.jpg" alt="">
+                            <img src="assets/img/about/welcome-new.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div><!-- conatiner -->
         </section>
 
-        <!-- About US area-->
+        <!-- About Google school-->
         <div class="welcome-about-us">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="about-title">
-                            <h3>Approved By <span style="color: #4285F4;">G</span><span style="color: #DB4437;">o</span><span style="color: #F4B400;">o</span><span style="color: #4285F4;">g</span><span style="color: #0F9D58;">l</span><span style="color: #DB4437;">e</span> For Education </h3>
+                            <h3>Approved By <span style="color: #4285F4;">G</span><span style="color: #DB4437;">o</span><span style="color: #F4B400;">o</span><span style="color: #4285F4;">g</span><span style="color: #0F9D58;">l</span><span style="color: #DB4437;">e</span> <br> For Education </h3>
                             <!-- <img src="assets/img/gedu.png" alt=""> -->
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reiciendis maxime hic molestias mollitia nulla labore tempore aperiam laudantium harum.</p>
                             <div class="google-btn">
@@ -374,7 +350,7 @@
         </div>
 
         <!-- Contact area -->
-        <div class="contact-scetion ptb_100">
+        <!-- <div class="contact-scetion ptb_100">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-sm-12">
@@ -434,7 +410,48 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+
+
+        <!-- Main Footer -->
+        <div class="main-footer footer-bg-1 ptb_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-contact">
+                            <div class="footer-title">
+                                <h3>Contact Us</h3>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span><i class="icofont-ui-home"></i> Address :</span> <br>
+                                    Asoka world school, Parayil Road, Elamakara, Kochi-682026
+                                </li>
+                                <li>
+                                    <span><i class="icofont-ui-cell-phone"></i> Phone :</span> <br>
+                                    0484 2409272, 9633756333
+                                </li>
+                                <li>
+                                    <span><i class="icofont-envelope"></i> Email :</span> <br>
+                                    asokaworldschool.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="footer-contact">
+                            <div class="footer-title">
+                                <h3>Location</h3>
+                            </div>
+                            <div class="map-responsive">
+                                <iframe src="https://www.google.com/maps/place/Asoka+World+School,+Parayil+Lane,+Elamakkara,+Kochi,+Kerala+682026/@10.0230715,76.2877529,15z/data=!4m2!3m1!1s0x3b080d6f87b34f41:0xcbb7ba132334a581" width="600" height="450" style="border:0;" frameborder="0" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
 
         <!-- Footer area -->
         <footer class="footer-bg">

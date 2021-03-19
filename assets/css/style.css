@@ -125,6 +125,11 @@ img {
     color: #ffffff;
 }
 
+.enq-btn{
+    font-size: 18px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
 /* padding */
 .ptb_100{
     padding: 100px 0;
@@ -204,6 +209,11 @@ img {
     height: 100vh;
 }
 
+.banner-content{
+    position: relative;
+    z-index: 2;
+}
+
 .button-group {
     margin-top: 30px;
 }
@@ -228,7 +238,7 @@ img {
     width: 32%;
     position: absolute;
     right: 5%;
-    top: 0;
+    top: 16%;
 }
 
 .form-banner form{
@@ -246,7 +256,21 @@ img {
     font-weight: 700;
     text-align: center;
     margin-bottom: 32px;
+    position: relative;
 }
+
+.form-banner form h1:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background: #e79800;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    transform: translate(50%,50%);
+}
+
 
 .form-banner form input{
     float: left;
@@ -334,7 +358,7 @@ img {
     color: #fff;
     text-transform: capitalize;
     font-weight: 800;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-size: 30px;
 }
 
@@ -346,7 +370,7 @@ img {
 
 .google-btn img{
     max-width: 150px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .about-video{
@@ -361,6 +385,7 @@ img {
 .about-video .video-inner{
     background: url(../../assets/img/about/welcome-new.jpg);
     background-size: cover;
+    background-position: center;
     height: 100%;
     overflow: hidden;
     padding: 0 25px;
@@ -711,6 +736,26 @@ img {
 }
 
 /* Footer area */
+.main-footer{
+    width: 100%;
+}
+
+.footer-bg-1{
+    background: #e0f5f4;
+}
+
+.footer-contact{
+    width: 100%;
+}
+
+.footer-title{
+    margin-bottom: 25px;
+}
+
+.footer-contact ul li{
+    margin-bottom: 25px;
+}
+
 .footer-bg{
     background-color: #131418 !important;
 }
@@ -732,6 +777,21 @@ img {
 .copyright-area a img{
     max-width: 100px;
 }
+
+.map-responsive{
+    overflow:hidden;
+    /* padding-bottom:56.25%; */
+    padding-bottom: 40.25%;
+    position:relative;
+    height:0;
+  }
+  .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
 
 /* testimonials */
 .testi-area .section-heading{
