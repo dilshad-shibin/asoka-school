@@ -205,8 +205,19 @@ img {
 
 /* Banner Area */
 .banner-area{
-    background: rgba(0, 0, 0, 0) url("../img/banner/background-image-3.jpg") no-repeat scroll center center / cover;
-    height: 100vh;
+    background: rgba(0, 0, 0, 0) url("../img/banner/Long-view.jpg") no-repeat scroll center center / cover;
+    height: 80vh;
+    position: relative;
+}
+
+.banner-area .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #1340138a;
+    opacity: 0.8;
 }
 
 .banner-content{
@@ -238,7 +249,7 @@ img {
     width: 32%;
     position: absolute;
     right: 5%;
-    top: 16%;
+    top: 5%;
 }
 
 .form-banner form{

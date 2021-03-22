@@ -13,9 +13,6 @@
 
 
 @media(max-width:451px){
-    .banner-content h1{
-        font-size: 50px;
-    }
     .call-btn{
         top: 25px;
         padding: 0;
@@ -34,9 +31,6 @@
     }
     .navbar-brand .logo{
         max-height: 85px;
-    }
-    .banner-area{
-        background-position: 65%;
     }
 }
 
@@ -84,9 +78,6 @@
         display: block;
         height: auto;
     }
-    .modal{
-        margin-top: 20px;
-    }
     .modal-body button.close{
         top: 10px;
     }
@@ -119,7 +110,7 @@
         padding: 0 10px;
     }
     .course-categories{
-        padding-top: 240px;
+        padding-top: 320px;
     }
 }
 
@@ -180,6 +171,9 @@
     .banner-area .container{
         max-width: 95%;
     }
+    .banner-content h1{
+        font-size: 60px;
+    }
 }
 
 @media(max-width:767px){
@@ -197,6 +191,15 @@
     }
     .navbar-nav .nav-link{
         padding: 10px 35px;
+    }
+    .banner-content h1{
+        font-size: 40px;
+    }
+    .provide-image{
+        margin: 20px 0;
+    }
+    .school-about{
+        margin-top: 20px
     }
 }
 
