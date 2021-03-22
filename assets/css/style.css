@@ -205,7 +205,7 @@ img {
 
 /* Banner Area */
 .banner-area{
-    background: rgba(0, 0, 0, 0) url("../img/banner/Long-view.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/banner/Long-view-cut.jpg") no-repeat scroll center center / cover;
     height: 80vh;
     position: relative;
 }
@@ -216,7 +216,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #1340138a;
+    background: #000000b0;
     opacity: 0.8;
 }
 
@@ -238,10 +238,11 @@ img {
     font-size: 80px;
     font-weight: 800;
     font-family: "Montserrat", sans-serif;
+    line-height: 1;
 }
 
 .banner-content h1 span{
-    font-size: 50px;
+    font-size: 60px;
     font-family: "Montserrat", sans-serif;
 }
 
